@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 3a964889-767f-48fc-81c5-bffb22d79787
+    PortName: Next
+    TargetNodeGuid: adc0ddea-5fe6-4ba9-aee1-69354a40b513
+  - BaseNodeGuid: 1a25c535-eb27-42cb-831b-ffd67bd6f55d
+    PortName: 'Reply: Thanks!'
+    TargetNodeGuid: 2812cdb6-01c6-4604-8d50-5c0aba6285c4
+  - BaseNodeGuid: cbfacbbe-cb25-4a1e-85ef-ce37e2721382
+    PortName: 'Baffled by the negative response, you replied: What do you mean by
+      that?'
+    TargetNodeGuid: 5043c4ff-2afd-432d-9f21-0a30555b2851
+  - BaseNodeGuid: 2812cdb6-01c6-4604-8d50-5c0aba6285c4
+    PortName: 'Reply: Thank you!'
+    TargetNodeGuid: cbfacbbe-cb25-4a1e-85ef-ce37e2721382
+  - BaseNodeGuid: 5043c4ff-2afd-432d-9f21-0a30555b2851
+    PortName: 'Reply: They are not my target audience anyways, not my problem.'
+    TargetNodeGuid: 482a9e3c-6837-48be-8def-4211dcd0cc95
+  - BaseNodeGuid: adc0ddea-5fe6-4ba9-aee1-69354a40b513
+    PortName: (Click here to check your computer)
+    TargetNodeGuid: 1a25c535-eb27-42cb-831b-ffd67bd6f55d
+  - BaseNodeGuid: 482a9e3c-6837-48be-8def-4211dcd0cc95
+    PortName: 'Reply: How do you know my name?'
+    TargetNodeGuid: 416eab3a-d7de-41a5-bb6c-3ba37fa2445c
+  - BaseNodeGuid: 416eab3a-d7de-41a5-bb6c-3ba37fa2445c
+    PortName: Feeling a little frustrated and tired, you decided to go to bed.
+    TargetNodeGuid: 09043420-4336-4df0-bded-a13c6933dea8
+  DialogueNodeData:
+  - Guid: 1a25c535-eb27-42cb-831b-ffd67bd6f55d
+    DialogueText: 'Chris98: Cool design!'
+    Position: {x: -1664, y: 389}
+  - Guid: cbfacbbe-cb25-4a1e-85ef-ce37e2721382
+    DialogueText: 'Anonymous Commentor: Sadly this is not designed inclusively.'
+    Position: {x: -988, y: 389}
+  - Guid: 2812cdb6-01c6-4604-8d50-5c0aba6285c4
+    DialogueText: 'Ana_C: Looking Slick!'
+    Position: {x: -1338, y: 389}
+  - Guid: 5043c4ff-2afd-432d-9f21-0a30555b2851
+    DialogueText: 'Anonymous Commentor: I mean your interface is not very usable
+      for disabled and inconvenienced users'
+    Position: {x: -366, y: 389}
+  - Guid: adc0ddea-5fe6-4ba9-aee1-69354a40b513
+    DialogueText: After posting your UI design online, you are waiting for comments
+      to come in.
+    Position: {x: -2251, y: 389}
+  - Guid: 482a9e3c-6837-48be-8def-4211dcd0cc95
+    DialogueText: 'Anonymous Commentor: I''m sorry you feel that way... James.'
+    Position: {x: 395, y: 389}
+  - Guid: 416eab3a-d7de-41a5-bb6c-3ba37fa2445c
+    DialogueText: No Response...
+    Position: {x: 976, y: 389}
+  - Guid: 09043420-4336-4df0-bded-a13c6933dea8
+    DialogueText: Use WASD to Move around, E to interact
+    Position: {x: 1524, y: 389}
+  ExposedProperties: []

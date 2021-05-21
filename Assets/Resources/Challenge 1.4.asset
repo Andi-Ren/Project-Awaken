@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: Challenge 1.4
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 6bbf1611-1817-4069-885c-b5be289c0c76
+    PortName: Next
+    TargetNodeGuid: ae6c6068-147b-4af6-9b8b-4ed6d4d89461
+  - BaseNodeGuid: ae6c6068-147b-4af6-9b8b-4ed6d4d89461
+    PortName: Okay.
+    TargetNodeGuid: 01834969-a005-496f-9958-c7662ccd38e7
+  - BaseNodeGuid: 01834969-a005-496f-9958-c7662ccd38e7
+    PortName: Okay.
+    TargetNodeGuid: b085cc6e-9ec4-460f-9e38-d0acb334d870
+  DialogueNodeData:
+  - Guid: ae6c6068-147b-4af6-9b8b-4ed6d4d89461
+    DialogueText: Much better. Remember, you should always include more indicators
+      for users.
+    Position: {x: 296, y: 200}
+  - Guid: 01834969-a005-496f-9958-c7662ccd38e7
+    DialogueText: Using color as the only indicator would bar 4.5% of population
+      from using your app.
+    Position: {x: 1022, y: 200}
+  - Guid: b085cc6e-9ec4-460f-9e38-d0acb334d870
+    DialogueText: Now go through the green door for real this time.
+    Position: {x: 1743, y: 200}
+  ExposedProperties: []

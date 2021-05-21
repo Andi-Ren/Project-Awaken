@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: Challenge 2.1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 892b1720-6af7-42af-86f7-436b5f9f5825
+    PortName: Next
+    TargetNodeGuid: 35ed5244-e3ee-4458-8f21-32d8f1221cec
+  - BaseNodeGuid: 21477fc0-b8a1-4f1e-8f0b-21856f7e0f7e
+    PortName: What am I doing here?
+    TargetNodeGuid: b6c687fa-fb26-4f5e-9192-336de671b81a
+  - BaseNodeGuid: 21477fc0-b8a1-4f1e-8f0b-21856f7e0f7e
+    PortName: What? I thought I was going home!
+    TargetNodeGuid: 2e982fbf-b971-485e-aeeb-cc5c8e40baa4
+  - BaseNodeGuid: 21477fc0-b8a1-4f1e-8f0b-21856f7e0f7e
+    PortName: Not another poorly-designed level...
+    TargetNodeGuid: c61511cd-cbc9-4d0b-902f-b96ac2c3ab80
+  - BaseNodeGuid: b6c687fa-fb26-4f5e-9192-336de671b81a
+    PortName: So what do I do here?
+    TargetNodeGuid: 07f0fcaa-37f5-4c7e-9693-fe39732391cb
+  - BaseNodeGuid: 2e982fbf-b971-485e-aeeb-cc5c8e40baa4
+    PortName: Huh? Spirits?
+    TargetNodeGuid: 81ccdbe7-0ba4-485d-8941-01abd6ec3ea6
+  - BaseNodeGuid: c61511cd-cbc9-4d0b-902f-b96ac2c3ab80
+    PortName: Hmph.
+    TargetNodeGuid: 95268e81-2fea-42c7-b9f8-b27eaff5ee0c
+  - BaseNodeGuid: 81ccdbe7-0ba4-485d-8941-01abd6ec3ea6
+    PortName: So what do I do here?
+    TargetNodeGuid: 07f0fcaa-37f5-4c7e-9693-fe39732391cb
+  - BaseNodeGuid: 95268e81-2fea-42c7-b9f8-b27eaff5ee0c
+    PortName: So what do I do here?
+    TargetNodeGuid: 07f0fcaa-37f5-4c7e-9693-fe39732391cb
+  - BaseNodeGuid: 07f0fcaa-37f5-4c7e-9693-fe39732391cb
+    PortName: I smell something fishy...
+    TargetNodeGuid: 24309a7e-c4bf-443f-bd42-ee7e830599f8
+  - BaseNodeGuid: 07f0fcaa-37f5-4c7e-9693-fe39732391cb
+    PortName: So, you copied Dance Dance Revolution?
+    TargetNodeGuid: 24309a7e-c4bf-443f-bd42-ee7e830599f8
+  - BaseNodeGuid: 07f0fcaa-37f5-4c7e-9693-fe39732391cb
+    PortName: Sounds easy enough.
+    TargetNodeGuid: 24309a7e-c4bf-443f-bd42-ee7e830599f8
+  - BaseNodeGuid: 24309a7e-c4bf-443f-bd42-ee7e830599f8
+    PortName: What's the purpose of that?
+    TargetNodeGuid: f1aa1fa4-0eae-4899-800f-b3372afe3eea
+  - BaseNodeGuid: 24309a7e-c4bf-443f-bd42-ee7e830599f8
+    PortName: Let me guess, you pour fish oil on the floor?
+    TargetNodeGuid: 62bc5728-fa66-491d-9661-74ee930c894a
+  - BaseNodeGuid: 24309a7e-c4bf-443f-bd42-ee7e830599f8
+    PortName: I knew it!
+    TargetNodeGuid: 5a24e2fe-382c-419a-88a0-f5e85d44cc02
+  - BaseNodeGuid: 62bc5728-fa66-491d-9661-74ee930c894a
+    PortName: Ready.
+    TargetNodeGuid: 83baddf6-2041-4e8a-a695-4549e0fede88
+  - BaseNodeGuid: f1aa1fa4-0eae-4899-800f-b3372afe3eea
+    PortName: Ready.
+    TargetNodeGuid: 83baddf6-2041-4e8a-a695-4549e0fede88
+  - BaseNodeGuid: 6f606361-7e58-4b56-acc7-3644bd37b587
+    PortName: Oh...
+    TargetNodeGuid: b0fa6117-2360-4384-876d-a3287893ce8e
+  - BaseNodeGuid: b6861968-657a-46ee-9bc1-b40a18a3a886
+    PortName: I get it now, interfaces with tiny buttons can have negative impacts
+      for people.
+    TargetNodeGuid: 3c2aa779-0e15-4e35-b833-7a58eb7c7f09
+  - BaseNodeGuid: b0fa6117-2360-4384-876d-a3287893ce8e
+    PortName: Okay.
+    TargetNodeGuid: c92a1a74-e5a2-48bf-abab-6661d9dc2c5a
+  - BaseNodeGuid: 13fcb519-5b16-44ba-a28c-189de3a86eb8
+    PortName: Okay.
+    TargetNodeGuid: 974dc3d7-8df1-4060-910a-84f952b04c67
+  - BaseNodeGuid: 974dc3d7-8df1-4060-910a-84f952b04c67
+    PortName: Alright.
+    TargetNodeGuid: b6861968-657a-46ee-9bc1-b40a18a3a886
+  - BaseNodeGuid: c92a1a74-e5a2-48bf-abab-6661d9dc2c5a
+    PortName: Hmmm...
+    TargetNodeGuid: 13fcb519-5b16-44ba-a28c-189de3a86eb8
+  - BaseNodeGuid: 5a24e2fe-382c-419a-88a0-f5e85d44cc02
+    PortName: Ready.
+    TargetNodeGuid: 83baddf6-2041-4e8a-a695-4549e0fede88
+  - BaseNodeGuid: 35ed5244-e3ee-4458-8f21-32d8f1221cec
+    PortName: What is this place?
+    TargetNodeGuid: 21477fc0-b8a1-4f1e-8f0b-21856f7e0f7e
+  - BaseNodeGuid: 3c2aa779-0e15-4e35-b833-7a58eb7c7f09
+    PortName: Yeah.
+    TargetNodeGuid: 7f57f2be-a380-47f1-87b0-6ed9c483914f
+  - BaseNodeGuid: 7f57f2be-a380-47f1-87b0-6ed9c483914f
+    PortName: That make a lot of sense.
+    TargetNodeGuid: 758ec03a-338f-4b61-91b7-6c67248055af
+  - BaseNodeGuid: 758ec03a-338f-4b61-91b7-6c67248055af
+    PortName: I will make the buttons bigger and place in more accessible locations.
+    TargetNodeGuid: f61a3c80-492d-47d2-9e99-dcb74bc7f630
+  - BaseNodeGuid: 83baddf6-2041-4e8a-a695-4549e0fede88
+    PortName: That was really hard when I can't fully control myself!
+    TargetNodeGuid: 6f606361-7e58-4b56-acc7-3644bd37b587
+  DialogueNodeData:
+  - Guid: 21477fc0-b8a1-4f1e-8f0b-21856f7e0f7e
+    DialogueText: It's an arcade room with a dance machine!
+    Position: {x: 527, y: 200}
+  - Guid: b6c687fa-fb26-4f5e-9192-336de671b81a
+    DialogueText: You will find out soon enough. Now, onto the dance floor Jamie
+      boy!
+    Position: {x: 1103, y: 81}
+  - Guid: 2e982fbf-b971-485e-aeeb-cc5c8e40baa4
+    DialogueText: Well, I gotta make sure you follow good inclusive design principles
+      to quell the spirits.
+    Position: {x: 1103, y: 228}
+  - Guid: c61511cd-cbc9-4d0b-902f-b96ac2c3ab80
+    DialogueText: I learned from example. Right, great designer?
+    Position: {x: 1103, y: 377}
+  - Guid: 81ccdbe7-0ba4-485d-8941-01abd6ec3ea6
+    DialogueText: Thought it's pretty obvious by now. Anyway, onto the dance floor
+      Jamie boy!
+    Position: {x: 1747, y: 228}
+  - Guid: 95268e81-2fea-42c7-b9f8-b27eaff5ee0c
+    DialogueText: Anyway, you still have more to learn. Onto the dance floor Jamie
+      boy!
+    Position: {x: 1762, y: 377}
+  - Guid: 07f0fcaa-37f5-4c7e-9693-fe39732391cb
+    DialogueText: Just look at the screen in front of you, and step on the different
+      arrows on the beat.
+    Position: {x: 2545, y: 151}
+  - Guid: 24309a7e-c4bf-443f-bd42-ee7e830599f8
+    DialogueText: Right, there is a small twist... You will feel all shaky and stumbly.
+    Position: {x: 3273, y: 179}
+  - Guid: 62bc5728-fa66-491d-9661-74ee930c894a
+    DialogueText: I'll just generate an earthquake. You have ten lives. Tell me when
+      you are ready.
+    Position: {x: 3884, y: 200}
+  - Guid: f1aa1fa4-0eae-4899-800f-b3372afe3eea
+    DialogueText: Nevermind that. You have ten lives, after that it's game over.
+      Tell me when you are ready.
+    Position: {x: 3894, y: 56}
+  - Guid: 6f606361-7e58-4b56-acc7-3644bd37b587
+    DialogueText: 'Exactly James! In real life, there are people with motor impairment.. '
+    Position: {x: 5414, y: 200}
+  - Guid: b6861968-657a-46ee-9bc1-b40a18a3a886
+    DialogueText: What do you think?
+    Position: {x: 7802, y: 30}
+  - Guid: b0fa6117-2360-4384-876d-a3287893ce8e
+    DialogueText: They can't control their hand or finger movements precisely.
+    Position: {x: 5950, y: 200}
+  - Guid: 13fcb519-5b16-44ba-a28c-189de3a86eb8
+    DialogueText: The people in this arcade all suffer from motor impairment.
+    Position: {x: 7188, y: 200}
+  - Guid: 974dc3d7-8df1-4060-910a-84f952b04c67
+    DialogueText: Why don't you go and talk to them for a little bit.
+    Position: {x: 7676, y: 200}
+  - Guid: c92a1a74-e5a2-48bf-abab-6661d9dc2c5a
+    DialogueText: Just like you, they have a hard time using interfaces with tiny
+      buttons.
+    Position: {x: 6471, y: 200}
+  - Guid: 5a24e2fe-382c-419a-88a0-f5e85d44cc02
+    DialogueText: You have ten lives, after that it's game over. Tell me when you
+      are ready.
+    Position: {x: 3884, y: 346}
+  - Guid: 35ed5244-e3ee-4458-8f21-32d8f1221cec
+    DialogueText: Are you ready to face the music?
+    Position: {x: 199, y: 200}
+  - Guid: 3c2aa779-0e15-4e35-b833-7a58eb7c7f09
+    DialogueText: 'You are right James, impairment doesn''t need to be permanent. '
+    Position: {x: 8256, y: 219}
+  - Guid: 7f57f2be-a380-47f1-87b0-6ed9c483914f
+    DialogueText: Designing inclusively is for everyone impaired, conditionally,
+      or permanently.
+    Position: {x: 8808, y: 219}
+  - Guid: 758ec03a-338f-4b61-91b7-6c67248055af
+    DialogueText: So how do you fix this design flaw?
+    Position: {x: 9419, y: 219}
+  - Guid: f61a3c80-492d-47d2-9e99-dcb74bc7f630
+    DialogueText: Great! (Snaps finger...)
+    Position: {x: 10032, y: 219}
+  - Guid: 83baddf6-2041-4e8a-a695-4549e0fede88
+    DialogueText: Wasn't as easy as it seems huh?
+    Position: {x: 4689, y: 200}
+  ExposedProperties: []

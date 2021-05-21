@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: challenge 1.3
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 4518e29d-4b30-4342-9cbe-da8953b75270
+    PortName: Next
+    TargetNodeGuid: be85e949-89fa-4f19-bd31-5d1e6e285998
+  - BaseNodeGuid: be85e949-89fa-4f19-bd31-5d1e6e285998
+    PortName: Well, that explains it.
+    TargetNodeGuid: c4f9160d-73c5-45fd-8644-7bbcae88c9b5
+  - BaseNodeGuid: c4f9160d-73c5-45fd-8644-7bbcae88c9b5
+    PortName: It was.
+    TargetNodeGuid: 6719f188-db3c-410e-a337-1b84dde5c60c
+  - BaseNodeGuid: c4f9160d-73c5-45fd-8644-7bbcae88c9b5
+    PortName: No kidding.
+    TargetNodeGuid: 6719f188-db3c-410e-a337-1b84dde5c60c
+  - BaseNodeGuid: c4f9160d-73c5-45fd-8644-7bbcae88c9b5
+    PortName: You have no idea.
+    TargetNodeGuid: 6719f188-db3c-410e-a337-1b84dde5c60c
+  - BaseNodeGuid: 6719f188-db3c-410e-a337-1b84dde5c60c
+    PortName: Woah...
+    TargetNodeGuid: 095314cf-552d-4ef3-bec7-d960c58626da
+  - BaseNodeGuid: 095314cf-552d-4ef3-bec7-d960c58626da
+    PortName: It sure is.
+    TargetNodeGuid: 13feb4a4-964e-434a-b199-8939701821a3
+  - BaseNodeGuid: 13feb4a4-964e-434a-b199-8939701821a3
+    PortName: That was inconvenient to say the least.
+    TargetNodeGuid: f43bcfbf-5454-48da-b3e2-afa0158d409b
+  - BaseNodeGuid: 13feb4a4-964e-434a-b199-8939701821a3
+    PortName: You can do that? Can you summon me a diet coke then?
+    TargetNodeGuid: 0c729232-f1e0-42d1-a664-73e0c15ed5a7
+  - BaseNodeGuid: 13feb4a4-964e-434a-b199-8939701821a3
+    PortName: Hey! That was not fair!
+    TargetNodeGuid: c9eef26a-20b8-4789-8f93-899651c85bd6
+  - BaseNodeGuid: f43bcfbf-5454-48da-b3e2-afa0158d409b
+    PortName: Hmmm...
+    TargetNodeGuid: ccf11443-189e-4936-94d9-e9c1698ef9d5
+  - BaseNodeGuid: c9eef26a-20b8-4789-8f93-899651c85bd6
+    PortName: Hmmm...
+    TargetNodeGuid: ccf11443-189e-4936-94d9-e9c1698ef9d5
+  - BaseNodeGuid: 0c729232-f1e0-42d1-a664-73e0c15ed5a7
+    PortName: Well, looks like I won't be thirsty in this world.
+    TargetNodeGuid: ccf11443-189e-4936-94d9-e9c1698ef9d5
+  - BaseNodeGuid: 1265cec3-bbd5-49c1-b1cf-ca22a204867c
+    PortName: Yeah...
+    TargetNodeGuid: ba72b9d8-c40a-47f9-b926-17fdcf974327
+  - BaseNodeGuid: ccf11443-189e-4936-94d9-e9c1698ef9d5
+    PortName: Like what?
+    TargetNodeGuid: 1265cec3-bbd5-49c1-b1cf-ca22a204867c
+  - BaseNodeGuid: ba72b9d8-c40a-47f9-b926-17fdcf974327
+    PortName: "What! of course it\u2019s their problem, they should... Oh\u2026 I
+      see.."
+    TargetNodeGuid: bc31b573-485a-460a-8b3b-3a5e505754f2
+  - BaseNodeGuid: bc31b573-485a-460a-8b3b-3a5e505754f2
+    PortName: Okay.
+    TargetNodeGuid: 893972bc-7f63-413d-ac6d-905a3ddfcd99
+  - BaseNodeGuid: 893972bc-7f63-413d-ac6d-905a3ddfcd99
+    PortName: Use different colors.
+    TargetNodeGuid: 61bef11f-40e5-4039-96a0-859476ba6206
+  - BaseNodeGuid: 893972bc-7f63-413d-ac6d-905a3ddfcd99
+    PortName: Add an icon for the different colors.
+    TargetNodeGuid: cf42c1a7-10c7-4795-8136-e15b5f9e8400
+  - BaseNodeGuid: 893972bc-7f63-413d-ac6d-905a3ddfcd99
+    PortName: Label the doors by color text.
+    TargetNodeGuid: 9c729014-847e-4fbf-956b-ef906ab084ee
+  - BaseNodeGuid: 61bef11f-40e5-4039-96a0-859476ba6206
+    PortName: Oh... right.
+    TargetNodeGuid: f7213817-1998-4003-9946-43bccdc6da87
+  - BaseNodeGuid: f7213817-1998-4003-9946-43bccdc6da87
+    PortName: Add an icon for the different colors.
+    TargetNodeGuid: 0cc2228e-da9d-4910-8e44-642d32f341b2
+  - BaseNodeGuid: f7213817-1998-4003-9946-43bccdc6da87
+    PortName: Label the doors by color tag.
+    TargetNodeGuid: 51c2a91b-b376-40d8-ab94-93525c8dc3ce
+  DialogueNodeData:
+  - Guid: be85e949-89fa-4f19-bd31-5d1e6e285998
+    DialogueText: Oooo, sorry. Did I mention that doors shuffle each time you go
+      through?
+    Position: {x: 208, y: 188}
+  - Guid: c4f9160d-73c5-45fd-8644-7bbcae88c9b5
+    DialogueText: Frustrating, wasn't it?
+    Position: {x: 787, y: 188}
+  - Guid: 6719f188-db3c-410e-a337-1b84dde5c60c
+    DialogueText: (Snaps finger...)
+    Position: {x: 1111, y: 213}
+  - Guid: 095314cf-552d-4ef3-bec7-d960c58626da
+    DialogueText: Feels nice seeing colors right?
+    Position: {x: 1415, y: 213}
+  - Guid: 13feb4a4-964e-434a-b199-8939701821a3
+    DialogueText: I manipulated your sights and made you temporarily red-green color
+      blind.
+    Position: {x: 1854, y: 213}
+  - Guid: f43bcfbf-5454-48da-b3e2-afa0158d409b
+    DialogueText: Just minor inconveniences.
+    Position: {x: 2572, y: 155}
+  - Guid: c9eef26a-20b8-4789-8f93-899651c85bd6
+    DialogueText: Stop crying, you just had it for 2 minutes, some people have it
+      for life.
+    Position: {x: 2572, y: 423}
+  - Guid: 0c729232-f1e0-42d1-a664-73e0c15ed5a7
+    DialogueText: Sure, here it is. (Snaps finger...)
+    Position: {x: 2572, y: 285}
+  - Guid: 1265cec3-bbd5-49c1-b1cf-ca22a204867c
+    DialogueText: Like when designers build things that end up just like these doors.
+    Position: {x: 4158, y: 285}
+  - Guid: ccf11443-189e-4936-94d9-e9c1698ef9d5
+    DialogueText: I live a normal life even with this condition, but it still can
+      be difficult at times.
+    Position: {x: 3201, y: 285}
+  - Guid: ba72b9d8-c40a-47f9-b926-17fdcf974327
+    DialogueText: Just because you can't find the right door isn't the designers'
+      problem, now is it?
+    Position: {x: 4808, y: 285}
+  - Guid: bc31b573-485a-460a-8b3b-3a5e505754f2
+    DialogueText: You were unable to find the correct door, so you won't be able
+      to return home just yet.
+    Position: {x: 5457, y: 285}
+  - Guid: 893972bc-7f63-413d-ac6d-905a3ddfcd99
+    DialogueText: What would you do to address this problem?
+    Position: {x: 6364, y: 285}
+  - Guid: 61bef11f-40e5-4039-96a0-859476ba6206
+    DialogueText: But what if someone experiences a different form of color-blindness?
+    Position: {x: 6988, y: 78}
+  - Guid: 9c729014-847e-4fbf-956b-ef906ab084ee
+    DialogueText: Good, labeling the doors would provide more info and allow you
+      to distinguish colors.
+    Position: {x: 6988, y: 472}
+  - Guid: f7213817-1998-4003-9946-43bccdc6da87
+    DialogueText: What would you do to address this problem?
+    Position: {x: 8020, y: 78}
+  - Guid: 51c2a91b-b376-40d8-ab94-93525c8dc3ce
+    DialogueText: Good, labeling the doors would provide more info and allow you
+      to distinguish colors.
+    Position: {x: 8630, y: 472}
+  - Guid: cf42c1a7-10c7-4795-8136-e15b5f9e8400
+    DialogueText: Good, an icon for each color would provide more info and allow
+      you to distinguish colors.
+    Position: {x: 6988, y: 262}
+  - Guid: 0cc2228e-da9d-4910-8e44-642d32f341b2
+    DialogueText: Good, an icon for each color would provide more info and allow
+      you to distinguish colors.
+    Position: {x: 8630, y: 262}
+  ExposedProperties: []

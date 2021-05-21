@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: Challenge 1.1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 979572af-e0c7-4302-a075-442ad0957803
+    PortName: Next
+    TargetNodeGuid: 1a4a59e6-afa7-406b-aed9-27572831cecd
+  - BaseNodeGuid: 1a4a59e6-afa7-406b-aed9-27572831cecd
+    PortName: Wha...Where am I?
+    TargetNodeGuid: 702f93e2-6228-4a45-b18b-24d8851aba71
+  - BaseNodeGuid: 702f93e2-6228-4a45-b18b-24d8851aba71
+    PortName: I do not know, could you tell me?
+    TargetNodeGuid: 395c6813-5143-4c90-bed0-2a42d1afa624
+  - BaseNodeGuid: 702f93e2-6228-4a45-b18b-24d8851aba71
+    PortName: I thought I went to bed earlier?
+    TargetNodeGuid: 395c6813-5143-4c90-bed0-2a42d1afa624
+  - BaseNodeGuid: 702f93e2-6228-4a45-b18b-24d8851aba71
+    PortName: Why don't you tell me?
+    TargetNodeGuid: 395c6813-5143-4c90-bed0-2a42d1afa624
+  - BaseNodeGuid: 395c6813-5143-4c90-bed0-2a42d1afa624
+    PortName: Like the Matrix? Am I being held hostage here?
+    TargetNodeGuid: bdc6890b-5703-4b75-8976-5bbbda277029
+  - BaseNodeGuid: bdc6890b-5703-4b75-8976-5bbbda277029
+    PortName: Woah, what was that?
+    TargetNodeGuid: d303a50e-7cb4-4cdd-a4dd-a2b6a885774a
+  - BaseNodeGuid: d303a50e-7cb4-4cdd-a4dd-a2b6a885774a
+    PortName: But no door is green...
+    TargetNodeGuid: 16454f7b-6107-45a0-93a7-5fd84dc47c4d
+  - BaseNodeGuid: 16454f7b-6107-45a0-93a7-5fd84dc47c4d
+    PortName: Could you tell me which one is the green door?
+    TargetNodeGuid: 876066d9-3d8e-4c88-87f1-751644cf9749
+  - BaseNodeGuid: 16454f7b-6107-45a0-93a7-5fd84dc47c4d
+    PortName: Its the one in the middle isn't it...
+    TargetNodeGuid: bd7640d2-0191-47ae-bed0-2ccebb1a3f0b
+  - BaseNodeGuid: 16454f7b-6107-45a0-93a7-5fd84dc47c4d
+    PortName: Really? Tell me which one is the green door.
+    TargetNodeGuid: 73393d78-30fa-4407-8cd1-e695fb484cdd
+  DialogueNodeData:
+  - Guid: 1a4a59e6-afa7-406b-aed9-27572831cecd
+    DialogueText: Welcome, James.
+    Position: {x: 240, y: 200}
+  - Guid: 702f93e2-6228-4a45-b18b-24d8851aba71
+    DialogueText: An excellent question James. Where do you think you are?
+    Position: {x: 549, y: 200}
+  - Guid: 395c6813-5143-4c90-bed0-2a42d1afa624
+    DialogueText: You are currently stuck in an code-simulated world.
+    Position: {x: 1133, y: 228}
+  - Guid: bdc6890b-5703-4b75-8976-5bbbda277029
+    DialogueText: Nope, you can leave if you want, just walk through the correct
+      door. (Snaps finger...)
+    Position: {x: 1647, y: 228}
+  - Guid: d303a50e-7cb4-4cdd-a4dd-a2b6a885774a
+    DialogueText: Now go through the green door.
+    Position: {x: 2453, y: 228}
+  - Guid: 16454f7b-6107-45a0-93a7-5fd84dc47c4d
+    DialogueText: Huh, really? I see one green door and four red doors.
+    Position: {x: 2851, y: 228}
+  - Guid: 876066d9-3d8e-4c88-87f1-751644cf9749
+    DialogueText: Sadly no. Guess you will have to choose one and roll the dice.
+    Position: {x: 3412, y: 106}
+  - Guid: bd7640d2-0191-47ae-bed0-2ccebb1a3f0b
+    DialogueText: Maybe. Guess you will have to choose one and roll the dice.
+    Position: {x: 3412, y: 252}
+  - Guid: 73393d78-30fa-4407-8cd1-e695fb484cdd
+    DialogueText: Not with that attitude. Guess you will have to choose one and take
+      your chances.
+    Position: {x: 3412, y: 401}
+  ExposedProperties: []

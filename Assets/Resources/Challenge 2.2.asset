@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: Challenge 2.2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: cc914ed0-3571-4170-91f0-cb2e490545fd
+    PortName: Next
+    TargetNodeGuid: 518077d6-b8ff-4770-bf08-17976bae57a6
+  - BaseNodeGuid: 518077d6-b8ff-4770-bf08-17976bae57a6
+    PortName: Ready.
+    TargetNodeGuid: 7f1cfecc-7d82-4f3e-8667-ff85bd7dd4be
+  DialogueNodeData:
+  - Guid: 7f1cfecc-7d82-4f3e-8667-ff85bd7dd4be
+    DialogueText: ' '
+    Position: {x: 695, y: 200}
+  - Guid: 518077d6-b8ff-4770-bf08-17976bae57a6
+    DialogueText: Are you ready to dance?
+    Position: {x: 307, y: 200}
+  ExposedProperties: []

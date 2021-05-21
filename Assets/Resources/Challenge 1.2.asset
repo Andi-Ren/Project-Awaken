@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: Challenge 1.2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: aace188c-05b9-479f-aaca-aaed48af492f
+    PortName: Next
+    TargetNodeGuid: 4617a456-8683-4658-96d3-725131e71926
+  DialogueNodeData:
+  - Guid: 4617a456-8683-4658-96d3-725131e71926
+    DialogueText: You chose... poorly. Try again.
+    Position: {x: 302, y: 189}
+  ExposedProperties: []

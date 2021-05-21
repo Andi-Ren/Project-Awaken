@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bed200190d0f043a9b983bf6c396c8, type: 3}
+  m_Name: Challenge 1.5
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 6bbf1611-1817-4069-885c-b5be289c0c76
+    PortName: Next
+    TargetNodeGuid: ae6c6068-147b-4af6-9b8b-4ed6d4d89461
+  - BaseNodeGuid: ae6c6068-147b-4af6-9b8b-4ed6d4d89461
+    PortName: Okay.
+    TargetNodeGuid: 4d493ac5-96d4-46ac-8c21-173822737cfe
+  - BaseNodeGuid: 4d493ac5-96d4-46ac-8c21-173822737cfe
+    PortName: Okay.
+    TargetNodeGuid: ce1ddf18-10cf-4a29-8614-300b28dfc4f2
+  - BaseNodeGuid: ce1ddf18-10cf-4a29-8614-300b28dfc4f2
+    PortName: Okay.
+    TargetNodeGuid: 67ec7fc0-195d-41ab-9960-6a879f80be35
+  DialogueNodeData:
+  - Guid: ae6c6068-147b-4af6-9b8b-4ed6d4d89461
+    DialogueText: Much better. But icons can be arbitrary, maybe consider labeling
+      with texts as well.
+    Position: {x: 341, y: 200}
+  - Guid: 4d493ac5-96d4-46ac-8c21-173822737cfe
+    DialogueText: Remember, you should always include more indicators for users.
+    Position: {x: 1103, y: 202}
+  - Guid: ce1ddf18-10cf-4a29-8614-300b28dfc4f2
+    DialogueText: Using color as the only indicator would bar 4.5% of population
+      from using your app.
+    Position: {x: 1676, y: 200}
+  - Guid: 67ec7fc0-195d-41ab-9960-6a879f80be35
+    DialogueText: Now go through the green door for real this time.
+    Position: {x: 2423, y: 202}
+  ExposedProperties: []
